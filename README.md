@@ -1,4 +1,4 @@
-#Azure Terraform CMP example
+Azure Terraform CMP example
 
 The example is leveraging the AzureRM Compute Module
 
