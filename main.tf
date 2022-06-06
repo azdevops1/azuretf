@@ -30,6 +30,7 @@ module "linuxservers" {
   vnet_subnet_id      = module.network.vnet_subnets[0]
   enable_ssh_key      = false
   admin_password      = "ComplxP@ssw0rd!"
+  vm_size             = var.vm_size
   depends_on = [azurerm_resource_group.example]
 }
 
