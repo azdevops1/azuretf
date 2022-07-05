@@ -3,7 +3,7 @@ variable "vm_size" {
   type        = string
 }
 
-variable "azure_resource_group" {
+variable "rg" {
   description = "Specifies which Resrouce Group"
   type        = string
 }
